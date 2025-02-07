@@ -73,7 +73,7 @@ function App() {
           <label>
             Graduation Year
             <input
-              value={graduationYear}
+              checked={graduationYear}
               onChange={(e) => setGraduationYear(e.target.value)}
               name="graduationYear"
               type="number"
